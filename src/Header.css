@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+header {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+  color: #000000;
+  border-bottom: 1px solid #eaeaea;
+  font-family: 'Lora';
+}
+
+h1 {
+  font-size: 2.5em;
+}
