@@ -25,8 +25,7 @@ class App extends Component {
     // fetching...
     fetch(url)
       .then(data => data.json())
-      .then(data => {
-        const countries = data;
+      .then(countries => {
         const correctAnswer = countries[Math.floor(Math.random() * countries.length)];
         const choices = this.getChoices(countries, correctAnswer);
         this.setState({choices, countries, correctAnswer});
